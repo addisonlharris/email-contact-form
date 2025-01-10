@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed Google Maps With Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="contact">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47366.
+            881927696144!2d-86.51789612958987!3d42.098258167431226!2m3!1f0!2f0!3f0!3m
+            2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8810c403af040ccb%3A0x6a062dc4210b8bdf!2sLions
+            %20Park%20Beach!5e0!3m2!1sen!2sus!4v1727317211880!5m2!1sen!2sus" 
+            style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        <div class="form">
+            <h1>Contact Us</h1>
+            <form action="https://formsubmit.co/addisonharris01@gmail.com" method="POST">
+                <input type="text" name="name" required placeholder="Name">
+                <input type="email" name="email" required placeholder="Email">
+                <input type="text" name="subject" required placeholder="Subject">
+                <textarea placeholder="Message"></textarea>
+                <input type="hidden" name="_template" value="box">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
